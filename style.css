@@ -1,0 +1,36 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 80px;
+    max-height: 100%;
+    border-radius: 50%;
+}
+
+body{
+    background-color: rgba(186, 189, 191, 0.582);
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.wrapper div{
+    background-color: bisque;
+    max-width: 300px;
+    height: 300px;
+    padding: 10px 20px;
+}
